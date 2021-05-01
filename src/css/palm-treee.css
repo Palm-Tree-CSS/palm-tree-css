@@ -22,3 +22,20 @@
 	--background_color_dark: #0D0D0D;
 	--container_width: 1200px; 
 }
+
+/* General Styles */
+body {
+	color: var(--background_color_dark);
+	background-color: var(--background__color_light);
+	font-family: var(--font);
+	font-size: 18px;
+}
+
+p {
+	line-height: 27px;
+}
+
+img {
+	vertical-align: top;
+	width: 100%;
+}
