@@ -1,3 +1,6 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 
@@ -6,4 +9,16 @@
 *::after,
 *::before {
   box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+	--font: 'Roboto', sans-serif;
+	--main_color: #0DF205;
+	--secundary_color: #04BF68;
+	--third_color: #027353;
+	--fourth_color: #A67D03;
+	--background__color_light:#EEFFE6;
+	--background_color_dark: #0D0D0D;
+	--container_width: 1200px; 
 }
