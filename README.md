@@ -6,7 +6,6 @@
 
 An open source CSS framework. 
 
-
 ## How to Contribute
 
 The contribution guideline is derived from [ConventionalCommits.org](https://www.conventionalcommits.org/)
