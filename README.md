@@ -1,8 +1,11 @@
+![Palm Tree CSS's Logo](./public/assets/img/logo.svg "Palm Tree CSS's Logo")
+
 # Palm Tree CSS
 
 🌴 Minimalist. Modern. Simple. 🌴 
 
 An open source CSS framework. 
+
 
 ## How to Contribute
 
