@@ -1,4 +1,4 @@
-# Palm Tree CSS
+# Palm Treee CSS
 
 🌴 Minimalist. Modern. Simple. 🌴 
 
