@@ -1,13 +1,13 @@
-![GitHub Repo Size](https://img.shields.io/github/repo-size/adonyssantos/palm-tree-css?style=plastic "GitHub Repo Size") ![GitHub Language count](https://img.shields.io/github/languages/count/adonyssantos/palm-tree-css?style=plastic "GitHub Language count") ![GitHub Top Language](https://img.shields.io/github/languages/top/adonyssantos/palm-tree-css?style=plastic "GitHub Top Language") ![GitHub Last Commit](https://img.shields.io/github/last-commit/adonyssantos/palm-tree-css?color=red&style=plastic "GitHub Last Commit") 
-
-![Palm Tree CSS's Logo](./public/assets/img/logo.svg "Palm Tree CSS's Logo")
+<p align="center">
+	<img src="./public/assets/img/logo.svg" alt="Palm Tree CSS's Logo" title="Palm Tree CSS's Logo" width="200"/>
+</p>
 
 # Palm Tree CSS
 
 🌴 Minimalist. Modern. Simple. 🌴 
 
 An open source CSS framework. 
-
+![GitHub Repo Size](https://img.shields.io/github/repo-size/adonyssantos/palm-tree-css?style=plastic "GitHub Repo Size") ![GitHub Language count](https://img.shields.io/github/languages/count/adonyssantos/palm-tree-css?style=plastic "GitHub Language count") ![GitHub Top Language](https://img.shields.io/github/languages/top/adonyssantos/palm-tree-css?style=plastic "GitHub Top Language") ![GitHub Last Commit](https://img.shields.io/github/last-commit/adonyssantos/palm-tree-css?color=red&style=plastic "GitHub Last Commit") 
 ## How to Contribute
 
 The contribution guideline is derived from [ConventionalCommits.org](https://www.conventionalcommits.org/)
