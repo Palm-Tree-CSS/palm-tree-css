@@ -15,6 +15,10 @@
 	<img src="https://img.shields.io/github/last-commit/adonyssantos/palm-tree-css?color=red&amp;style=plastic" alt="GitHub Last Commit" title="GitHub Last Commit">
 </p>
 
+## Table of contents
+
+- [How to Contribute](#how-to-contribute)
+
 ## How to Contribute
 
 The contribution guideline is derived from [ConventionalCommits.org](https://www.conventionalcommits.org/)
