@@ -1,0 +1,6 @@
+.container {
+  max-width: 90%;
+  width: var(--container_width);
+  margin: 20px auto;
+  overflow: hidden;
+}
