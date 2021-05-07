@@ -1,0 +1,37 @@
+html {
+	font-size: 62.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
+
+.display-1 {
+	font-weight: 700;
+	font-size: 6.4rem;
+}
+
+.display-2 {
+	font-weight: 700;
+	font-size: 5.4rem;
+}
+
+.display-3 {
+	font-weight: 700;
+	font-size: 4.4rem;
+}
+
+.display-4 {
+	font-weight: 700;
+	font-size: 3.4rem;
+}
+
+.display-5 {
+	font-weight: 700;
+	font-size: 2.4rem;
+}
+
+.display-6 {
+	font-weight: 700;
+	font-size: 1.4rem;
+}
