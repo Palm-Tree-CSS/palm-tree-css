@@ -2,7 +2,7 @@
 	<img src="./public/assets/img/logo.svg" alt="Palm Tree CSS's Logo" title="Palm Tree CSS's Logo" width="200"/>
 </p>
 
-<h2 align="center">Palm Tree CSS</h2>
+<h2 align="center">Palm Treee CSS</h2>
 
 <p align="center">
 	🌴 Minimalist. Modern. Simple. 🌴 An open source CSS framework. 
