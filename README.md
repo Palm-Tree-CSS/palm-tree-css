@@ -8,7 +8,13 @@
 	🌴 Minimalist. Modern. Simple. 🌴 An open source CSS framework. 
 </p>
 
-![GitHub Repo Size](https://img.shields.io/github/repo-size/adonyssantos/palm-tree-css?style=plastic "GitHub Repo Size") ![GitHub Language count](https://img.shields.io/github/languages/count/adonyssantos/palm-tree-css?style=plastic "GitHub Language count") ![GitHub Top Language](https://img.shields.io/github/languages/top/adonyssantos/palm-tree-css?style=plastic "GitHub Top Language") ![GitHub Last Commit](https://img.shields.io/github/last-commit/adonyssantos/palm-tree-css?color=red&style=plastic "GitHub Last Commit") 
+<p align="center">
+	<img src="https://img.shields.io/github/repo-size/adonyssantos/palm-tree-css?style=plastic" alt="GitHub Repo Size" title="GitHub Repo Size"> 
+	<img src="https://img.shields.io/github/languages/count/adonyssantos/palm-tree-css?style=plastic" alt="GitHub Language count" title="GitHub Language count"> 
+	<img src="https://img.shields.io/github/languages/top/adonyssantos/palm-tree-css?style=plastic" alt="GitHub Top Language" title="GitHub Top Language"> 
+	<img src="https://img.shields.io/github/last-commit/adonyssantos/palm-tree-css?color=red&amp;style=plastic" alt="GitHub Last Commit" title="GitHub Last Commit">
+</p>
+
 ## How to Contribute
 
 The contribution guideline is derived from [ConventionalCommits.org](https://www.conventionalcommits.org/)
