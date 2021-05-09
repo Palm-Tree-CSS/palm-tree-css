@@ -18,6 +18,19 @@
 .col-11 { grid-template-columns: repeat(11, 1fr); }
 .col-12 { grid-template-columns: repeat(12, 1fr); }
 
+.span-1 { grid-column: span 1; }
+.span-2 { grid-column: span 2; }
+.span-3 { grid-column: span 3; }
+.span-4 { grid-column: span 4; }
+.span-5 { grid-column: span 5; }
+.span-6 { grid-column: span 6; }
+.span-7 { grid-column: span 7; }
+.span-8 { grid-column: span 8; }
+.span-9 { grid-column: span 9; }
+.span-10 { grid-column: span 10; }
+.span-11 { grid-column: span 11; }
+.span-12 { grid-column: span 12; }
+
 /* Medium size (Tablet) */
 @media screen and (max-width: 992px) {
 	.med-col-1 { grid-template-columns: repeat(1, 1fr); }
@@ -32,6 +45,19 @@
 	.med-col-10 { grid-template-columns: repeat(10, 1fr); }
 	.med-col-11 { grid-template-columns: repeat(11, 1fr); }
 	.med-col-12 { grid-template-columns: repeat(12, 1fr); }
+
+	.med-span-1 { grid-column: span 1; }
+	.med-span-2 { grid-column: span 2; }
+	.med-span-3 { grid-column: span 3; }
+	.med-span-4 { grid-column: span 4; }
+	.med-span-5 { grid-column: span 5; }
+	.med-span-6 { grid-column: span 6; }
+	.med-span-7 { grid-column: span 7; }
+	.med-span-8 { grid-column: span 8; }
+	.med-span-9 { grid-column: span 9; }
+	.med-span-10 { grid-column: span 10; }
+	.med-span-11 { grid-column: span 11; }
+	.med-span-12 { grid-column: span 12; }
 }
 
 /* Small size (Phone) */
@@ -48,4 +74,17 @@
 	.small-col-10 { grid-template-columns: repeat(10, 1fr); }
 	.small-col-11 { grid-template-columns: repeat(11, 1fr); }
 	.small-col-12 { grid-template-columns: repeat(12, 1fr); }
+
+	.small-span-1 { grid-column: span 1; }
+	.small-span-2 { grid-column: span 2; }
+	.small-span-3 { grid-column: span 3; }
+	.small-span-4 { grid-column: span 4; }
+	.small-span-5 { grid-column: span 5; }
+	.small-span-6 { grid-column: span 6; }
+	.small-span-7 { grid-column: span 7; }
+	.small-span-8 { grid-column: span 8; }
+	.small-span-9 { grid-column: span 9; }
+	.small-span-10 { grid-column: span 10; }
+	.small-span-11 { grid-column: span 11; }
+	.small-span-12 { grid-column: span 12; }
 }
