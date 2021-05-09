@@ -1,0 +1,16 @@
+form * {
+	font-family: var(--font);
+}
+
+form .input {
+	padding: 10px 15px;
+	border-radius: 3px;
+	border: 1px solid var(--background__color_light);
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+form .input:focus {
+	border: 1px solid var(--main_color);
+	outline: none;
+}
