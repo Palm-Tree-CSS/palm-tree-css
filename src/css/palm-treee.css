@@ -4,6 +4,7 @@
 @import './container.css';
 @import 'typography.css';
 @import './components/card.css';
+@import './grid.css';
 
 /* Reset */
 *,

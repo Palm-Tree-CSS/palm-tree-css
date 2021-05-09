@@ -1,0 +1,51 @@
+.grid {
+	display: grid;
+	gap: 20px;
+	margin-bottom: 20px;
+}
+
+/* Large size (Desktop and TV) */
+.col-1 { grid-template-columns: repeat(1, 1fr); }
+.col-2 { grid-template-columns: repeat(2, 1fr); }
+.col-3 { grid-template-columns: repeat(3, 1fr); }
+.col-4 { grid-template-columns: repeat(4, 1fr); }
+.col-5 { grid-template-columns: repeat(5, 1fr); }
+.col-6 { grid-template-columns: repeat(6, 1fr); }
+.col-7 { grid-template-columns: repeat(7, 1fr); }
+.col-8 { grid-template-columns: repeat(8, 1fr); }
+.col-9 { grid-template-columns: repeat(9, 1fr); }
+.col-10 { grid-template-columns: repeat(10, 1fr); }
+.col-11 { grid-template-columns: repeat(11, 1fr); }
+.col-12 { grid-template-columns: repeat(12, 1fr); }
+
+/* Medium size (Tablet) */
+@media screen and (max-width: 992px) {
+	.med-col-1 { grid-template-columns: repeat(1, 1fr); }
+	.med-col-2 { grid-template-columns: repeat(2, 1fr); }
+	.med-col-3 { grid-template-columns: repeat(3, 1fr); }
+	.med-col-4 { grid-template-columns: repeat(4, 1fr); }
+	.med-col-5 { grid-template-columns: repeat(5, 1fr); }
+	.med-col-6 { grid-template-columns: repeat(6, 1fr); }
+	.med-col-7 { grid-template-columns: repeat(7, 1fr); }
+	.med-col-8 { grid-template-columns: repeat(8, 1fr); }
+	.med-col-9 { grid-template-columns: repeat(9, 1fr); }
+	.med-col-10 { grid-template-columns: repeat(10, 1fr); }
+	.med-col-11 { grid-template-columns: repeat(11, 1fr); }
+	.med-col-12 { grid-template-columns: repeat(12, 1fr); }
+}
+
+/* Small size (Phone) */
+@media screen and (max-width: 576px) {
+	.small-col-1 { grid-template-columns: repeat(1, 1fr); }
+	.small-col-2 { grid-template-columns: repeat(2, 1fr); }
+	.small-col-3 { grid-template-columns: repeat(3, 1fr); }
+	.small-col-4 { grid-template-columns: repeat(4, 1fr); }
+	.small-col-5 { grid-template-columns: repeat(5, 1fr); }
+	.small-col-6 { grid-template-columns: repeat(6, 1fr); }
+	.small-col-7 { grid-template-columns: repeat(7, 1fr); }
+	.small-col-8 { grid-template-columns: repeat(8, 1fr); }
+	.small-col-9 { grid-template-columns: repeat(9, 1fr); }
+	.small-col-10 { grid-template-columns: repeat(10, 1fr); }
+	.small-col-11 { grid-template-columns: repeat(11, 1fr); }
+	.small-col-12 { grid-template-columns: repeat(12, 1fr); }
+}
