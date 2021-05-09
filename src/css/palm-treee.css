@@ -5,6 +5,7 @@
 @import 'typography.css';
 @import './components/card.css';
 @import './grid.css';
+@import './components/nav.css';
 
 /* Reset */
 *,
