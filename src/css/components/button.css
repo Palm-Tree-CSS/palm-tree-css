@@ -11,6 +11,6 @@
   transition: 0.3s ease all;
 }
 
-.btn:hover {
+.btn:active, .btn:hover {
   background-color: var(--secundary_color);
 }
