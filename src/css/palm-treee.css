@@ -1,7 +1,7 @@
 /* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css"); /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-@import "./grid.css"; /* Layout */
+@import "./layout.css"; /* Layout */
 @import "./container.css"; /* Container */
 @import "typography.css"; /* Typography */
 @import './components/index.css'; /* Components */
