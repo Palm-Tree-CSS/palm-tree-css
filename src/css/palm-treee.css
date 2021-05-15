@@ -25,15 +25,15 @@ html {
   --secundary_color: #04bf68;
   --third_color: #027353;
   --fourth_color: #a67d03;
-  --background__color_light: #eeffe6;
-  --background_color_dark: #0d0d0d;
+  --color_light: #eeffe6;
+  --color_dark: #0d0d0d;
   --container_width: 1200px;
 }
 
 /* General Styles */
 body {
-  color: var(--background_color_dark);
-  background-color: var(--background__color_light);
+  color: var(--color_dark);
+  background-color: var(--color_light);
   font-family: var(--font);
   font-size: 18px;
 }

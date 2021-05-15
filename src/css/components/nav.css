@@ -13,7 +13,7 @@
 }
 
 .nav a {
-  color: var(--background__color_light);
+  color: var(--color_light);
   text-decoration: none;
   display: flex;
   align-items: center;
