@@ -21,13 +21,13 @@ html {
 /* Variables */
 :root {
   --font: "Roboto", sans-serif;
+  --container_width: 70vw;
+  --color_light: #eeffe6;
+  --color_dark: #0d0d0d;
   --main_color: #0df205;
   --secundary_color: #04bf68;
   --third_color: #027353;
   --fourth_color: #a67d03;
-  --color_light: #eeffe6;
-  --color_dark: #0d0d0d;
-  --container_width: 1200px;
 }
 
 /* General Styles */
