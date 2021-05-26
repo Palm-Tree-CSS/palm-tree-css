@@ -1,5 +1,5 @@
 .btn {
-  background-color: var(--main_color);
+  background-color: var(--color_green);
   border: none;
   cursor: pointer;
   color: #eee;
@@ -12,5 +12,5 @@
 }
 
 .btn:active, .btn:hover {
-  background-color: var(--secundary_color);
+  background-color: var(--color_light_green);
 }
