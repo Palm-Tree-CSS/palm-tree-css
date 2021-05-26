@@ -1,8 +1,11 @@
 @charset 'utf-8';
 
+// Themes
+@import "./themes/default.scss";
+
 // Abstracts
-@import "./abstracts/helpers";
 @import "./abstracts/variables";
+@import "./abstracts/helpers";
 
 // Base stuff
 @import "./base/fonts";
@@ -19,14 +22,13 @@
 @import "./layout/container";
 @import "./layout/layout";
 
-// Themes
-@import "./themes/default.scss";
+
 
 /* General Styles */
 body {
-  color: var(--color_dark);
-  background-color: var(--color_light);
-  font-family: var(--font);
+  color: $color_dark;
+  background-color: $color_light;
+  font-family: $font;
   font-size: 1.8rem;
 }
 
