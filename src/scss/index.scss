@@ -1,0 +1,42 @@
+/* Imports */
+@import "./components/button";
+@import "./components/card";
+@import "./components/container";
+@import "./components/form";
+@import "./components/helpers";
+@import "./components/layout";
+@import "./components/nav";
+@import "./components/typography";
+
+// Color Theme
+@import "../themes/default.scss"; 
+
+/* Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* General Styles */
+body {
+  color: var(--color_dark);
+  background-color: var(--color_light);
+  font-family: var(--font);
+  font-size: 18px;
+}
+
+p {
+  line-height: 27px;
+}
+
+img {
+  vertical-align: top;
+  width: 100%;
+}
