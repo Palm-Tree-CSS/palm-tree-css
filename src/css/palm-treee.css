@@ -4,8 +4,9 @@
 @import "./layout.css"; /* Layout */
 @import "./container.css"; /* Container */
 @import "typography.css"; /* Typography */
-@import './components/index.css'; /* Components */
+@import "./components/index.css"; /* Components */
 @import "./helpers/index.css"; /* Helpers */
+@import "../themes/default.css"; /* Themes */
 
 /* Reset */
 *,
@@ -16,18 +17,6 @@
 
 html {
   font-size: 62.5%;
-}
-
-/* Variables */
-:root {
-  --font: "Roboto", sans-serif;
-  --container_width: 70vw;
-  --color_light: #eeffe6;
-  --color_dark: #0d0d0d;
-  --main_color: #0df205;
-  --secundary_color: #04bf68;
-  --third_color: #027353;
-  --fourth_color: #a67d03;
 }
 
 /* General Styles */
