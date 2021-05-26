@@ -11,6 +11,6 @@ form .input {
 }
 
 form .input:focus {
-  border: 1px solid var(--main_color);
+  border: 1px solid var(--color_green);
   outline: none;
 }

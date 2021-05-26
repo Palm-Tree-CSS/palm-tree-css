@@ -1,0 +1,28 @@
+{
+  "name": "palm-treee-css",
+  "version": "1.0.0",
+  "description": "🌴 Minimalist. Modern. Simple. 🌴 An open source CSS framework.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "sass": "^1.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass --watch src/scss:styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adonyssantos/palm-treee-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adonyssantos/palm-treee-css/issues"
+  },
+  "homepage": "https://github.com/adonyssantos/palm-treee-css"
+}

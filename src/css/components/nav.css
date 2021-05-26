@@ -1,5 +1,5 @@
 .nav {
-  background-color: var(--main_color);
+  background-color: var(--color_green);
   display: flex;
   display: wrap;
 }
@@ -25,5 +25,5 @@
 
 .nav a.active,
 .nav a:hover {
-  background-color: var(--secundary_color);
+  background-color: var(--color_light_green);
 }

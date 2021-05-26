@@ -1,11 +1,12 @@
 /* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css"); /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-@import "./layout.css"; /* Layout */
-@import "./container.css"; /* Container */
-@import "typography.css"; /* Typography */
-@import './components/index.css'; /* Components */
-@import "./helpers/index.css"; /* Helpers */
+@import "./css/layout.css"; /* Layout */
+@import "./css/container.css"; /* Container */
+@import "./css/typography.css"; /* Typography */
+@import "./css/components/index.css"; /* Components */
+@import "./css/helpers/index.css"; /* Helpers */
+@import "./themes/default.css"; /* Themes */
 
 /* Reset */
 *,
@@ -16,18 +17,6 @@
 
 html {
   font-size: 62.5%;
-}
-
-/* Variables */
-:root {
-  --font: "Roboto", sans-serif;
-  --container_width: 70vw;
-  --color_light: #eeffe6;
-  --color_dark: #0d0d0d;
-  --main_color: #0df205;
-  --secundary_color: #04bf68;
-  --third_color: #027353;
-  --fourth_color: #a67d03;
 }
 
 /* General Styles */
