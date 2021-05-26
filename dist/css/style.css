@@ -65,7 +65,6 @@ html {
   line-height: 2.2rem;
   transition: 0.3s ease all;
 }
-
 .btn:active, .btn:hover {
   background-color: #53dfba;
 }
@@ -74,13 +73,12 @@ html {
   padding: 40px;
   background-color: #fff;
   border-radius: 3px;
-  box-shadow: 0 0 30px #dddddd4d;
+  box-shadow: 0 0 30px rgba(221, 221, 221, 0.3);
 }
 
-form * {
+form {
   font-family: "Roboto", sans-serif;
 }
-
 form .input {
   padding: 10px 15px;
   border-radius: 3px;
@@ -88,8 +86,7 @@ form .input {
   width: 100%;
   margin-bottom: 20px;
 }
-
-form .input:focus {
+form:focus {
   border: 1px solid #0fd9a4;
   outline: none;
 }
@@ -99,7 +96,6 @@ form .input:focus {
   display: flex;
   display: wrap;
 }
-
 .nav .container {
   display: flex;
   flex-wrap: wrap;
@@ -107,7 +103,6 @@ form .input:focus {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 .nav a {
   color: #f2efeb;
   text-decoration: none;
@@ -118,9 +113,7 @@ form .input:focus {
   transform: 0.3s ease all;
   font-size: 1.8rem;
 }
-
-.nav a.active,
-.nav a:hover {
+.nav a.active, .nav a:hover {
   background-color: #53dfba;
 }
 

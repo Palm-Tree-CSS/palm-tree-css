@@ -1,16 +1,16 @@
-form * {
+form {
   font-family: $font;
-}
 
-form .input {
-  padding: 10px 15px;
-  border-radius: 3px;
-  border: 1px solid $color_light;
-  width: 100%;
-  margin-bottom: 20px;
-}
+  & .input {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid $color_light;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
-form .input:focus {
-  border: 1px solid $color_green;
-  outline: none;
+  &:focus {
+    border: 1px solid $color_green;
+    outline: none;
+  }
 }

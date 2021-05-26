@@ -9,8 +9,9 @@
   text-align: center;
   line-height: 2.2rem;
   transition: 0.3s ease all;
-}
-
-.btn:active, .btn:hover {
-  background-color: $color_light_green;
+  
+  &:active,
+  &:hover {
+    background-color: $color_light_green;
+  }
 }
