@@ -1,35 +1,33 @@
-/* Imports */
+@charset 'utf-8';
+
+// Abstracts
+@import "./abstracts/helpers";
+@import "./abstracts/variables";
+
+// Base stuff
+@import "./base/fonts";
+@import "./base/reset";
+
+// Components
 @import "./components/button";
 @import "./components/card";
-@import "./components/container";
 @import "./components/form";
-@import "./components/helpers";
-@import "./components/layout";
 @import "./components/nav";
 @import "./components/typography";
 
-// Color Theme
-@import "../themes/default.scss"; 
+// Layout
+@import "./layout/container";
+@import "./layout/layout";
 
-/* Reset */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
+// Themes
+@import "./themes/default.scss";
 
 /* General Styles */
 body {
   color: var(--color_dark);
   background-color: var(--color_light);
   font-family: var(--font);
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 p {
