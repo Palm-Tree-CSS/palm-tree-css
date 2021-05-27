@@ -5,7 +5,7 @@
 <h2 align="center">Palm Treee CSS</h2>
 
 <p align="center">
-	🌴 Minimalist. Modern. Simple. 🌴 An open source CSS framework. 
+	🌴 Minimalist. Modern. Simple. 🌴 An open source CSS library. 
 </p>
 
 <p align="center">
