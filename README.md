@@ -60,7 +60,7 @@ We recommend using the HTML5 structure, the initial code should be as follows.
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Palm Tree CSS -->
-	<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/index.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/style.min.css" crossorigin="anonymous">
 
 	<title>Palm Tree</title>
 </head>
