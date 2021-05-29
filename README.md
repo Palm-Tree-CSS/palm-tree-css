@@ -85,7 +85,7 @@ Conventional Commits use the [GitHub flow](https://guides.github.com/introductio
 
 1. Fork the [Palm Tree](https://github.com/adonyssantos/palm-Tree-css) repository.
 2. Create a new branch for each feature, fix or improvement.
-3. Send a pull request from each feature branch to **pre-production** branch.
+3. Send a pull request from each feature branch to **dev** branch.
 
 It is very important to separate new features or improvements into separate feature branches, and to send a pull request for each branch.
 
