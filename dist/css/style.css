@@ -473,6 +473,62 @@ h6 {
     grid-column: span 12;
   }
 }
+.color-light {
+  color: #f2efeb;
+}
+
+.color-dark {
+  color: #261501;
+}
+
+.color-green {
+  color: #0fd9a4;
+}
+
+.color-light-green {
+  color: #53dfba;
+}
+
+.color-dark-green {
+  color: #21594a;
+}
+
+.color-blue {
+  color: #049dd9;
+}
+
+.color-light-blue {
+  color: #47b4df;
+}
+
+.color-dark-blue {
+  color: #1d4859;
+}
+
+.color-red {
+  color: #d9471a;
+}
+
+.color-light-red {
+  color: #df7c5e;
+}
+
+.color-dark-red {
+  color: #593225;
+}
+
+.color-yellow {
+  color: #d9a81a;
+}
+
+.color-light-yellow {
+  color: #dfbf5e;
+}
+
+.color-dark-yellow {
+  color: #594c25;
+}
+
 /* General Styles */
 body {
   color: #261501;
