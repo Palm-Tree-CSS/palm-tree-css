@@ -1,1 +1,1 @@
-# Palm Treee Documentation
+# Palm Tree Documentation
