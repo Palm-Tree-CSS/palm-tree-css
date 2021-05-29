@@ -28,14 +28,14 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 
 ```html
 <!-- Palm Tree CSS -->
-<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/index.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/style.min.css" crossorigin="anonymous">
 ```
 
 The same but without minifying.
 
 ```html
 <!-- Palm Tree CSS -->
-<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/index.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/style.css" crossorigin="anonymous">
 ```
 
 ## Keep in mind
