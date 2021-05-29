@@ -17,7 +17,59 @@
 
 ## Table of contents
 
+- [Add Palm Tree to your project](#add-palm-tree-to-your-project)
+- [Keep in mind](#keep-in-mind)
+- [Starter template](#starter-template)
 - [How to Contribute](#how-to-contribute)
+
+## Add Palm Tree to your project
+
+Copy-paste the stylesheet `<link>` into your `<head>` before all other stylesheets to load our CSS.
+
+```html
+<!-- Palm Tree CSS -->
+<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/index.min.css" crossorigin="anonymous">
+```
+
+The same but without minifying.
+
+```html
+<!-- Palm Tree CSS -->
+<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/index.css" crossorigin="anonymous">
+```
+
+## Keep in mind
+
+Palm Tree uses **viewport meta tag** so you need to add it to your `head`.
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+## Starter template 
+
+We recommend using the HTML5 structure, the initial code should be as follows.
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Palm Tree CSS -->
+	<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/index.min.css" crossorigin="anonymous">
+
+	<title>Palm Tree</title>
+</head>
+<body>
+	<h1>Hello, Palm Tree!</h1>
+	<!-- Your code -->
+</body>
+</html>
+```
 
 ## How to Contribute
 
