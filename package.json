@@ -7,13 +7,12 @@
     "doc": "docs"
   },
   "dependencies": {
-    "css-minify": "^1.1.0",
     "sass": "^1.34.0"
   },
   "devDependencies": {},
   "scripts": {
-    "css-compile": "sass --watch --style expanded --source-map --embed-sources --no-error-css src/scss/:dist/css/",
-    "css-minify": "css-minify --dir dist/css --output dist/css"
+    "css-compile": "sass --watch  --source-map --embed-sources --no-error-css src/scss/:dist/css/",
+    "css-minify": "sass --style=compressed --source-map --embed-sources --no-error-css src/scss/style.scss dist/css/style.min.css"
   },
   "repository": {
     "type": "git",
