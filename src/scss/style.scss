@@ -22,6 +22,9 @@
 @import "./layout/container";
 @import "./layout/layout";
 
+// Utilities
+@import "./utilities/color";
+
 /* General Styles */
 body {
   color: $color_dark;
