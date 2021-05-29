@@ -2,7 +2,7 @@
 	<img src="./public/assets/img/logo.svg" alt="Palm Tree CSS's Logo" title="Palm Tree CSS's Logo" width="200"/>
 </p>
 
-<h2 align="center">Palm Treee CSS</h2>
+<h2 align="center">Palm Tree CSS</h2>
 
 <p align="center">
 	🌴 Minimalist. Modern. Simple. 🌴 An open source CSS library. 
@@ -31,7 +31,7 @@ Be kind to one another. We're striving to make [Conventional Commits](https://ww
 
 Conventional Commits use the [GitHub flow](https://guides.github.com/introduction/flow/) as main versioning workflow
 
-1. Fork the [Palm Treee](https://github.com/adonyssantos/palm-treee-css) repository.
+1. Fork the [Palm Tree](https://github.com/adonyssantos/palm-Tree-css) repository.
 2. Create a new branch for each feature, fix or improvement.
 3. Send a pull request from each feature branch to **pre-production** branch.
 
