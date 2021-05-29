@@ -125,8 +125,15 @@ h4,
 h5,
 h6 {
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Small size (Phone) */
 .display-1 {
   font-weight: 700;
   font-size: 6.4rem;
@@ -157,6 +164,60 @@ h6 {
   font-size: 1.4rem;
 }
 
+/* Medium size (Tablet) */
+@media screen and (min-width: 992px) {
+  h1,
+h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.406rem;
+  }
+
+  h4 {
+    font-size: 2.1rem;
+  }
+
+  h5 {
+    font-size: 1.794rem;
+  }
+
+  h6 {
+    font-size: 1.506;
+  }
+
+  p {
+    font-size: 2.1rem;
+  }
+}
+/* Large size (Desktop and TV) */
+@media screen and (min-width: 576px) {
+  h1,
+h2 {
+    font-size: 3.3rem;
+  }
+
+  h3 {
+    font-size: 2.706rem;
+  }
+
+  h4 {
+    font-size: 2.4rem;
+  }
+
+  h5 {
+    font-size: 2.094rem;
+  }
+
+  h6 {
+    font-size: 1.706;
+  }
+
+  p {
+    font-size: 2.4rem;
+  }
+}
 .container {
   max-width: 90%;
   width: 70vw;
