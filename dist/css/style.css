@@ -55,6 +55,18 @@
   text-decoration: underline;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
 /* Reset */
 *,
 *::after,
