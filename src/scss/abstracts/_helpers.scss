@@ -1,4 +1,4 @@
-/* Margin */
+// Margin
 .no-margin {
   margin: 0;
 }
@@ -27,7 +27,7 @@
   margin-bottom: 20px;
 }
 
-/* Text */
+// Text
 .text-center {
   text-align: center;
 }
@@ -38,4 +38,22 @@
 
 .text-right {
   text-align: right;
+}
+
+// Links
+.pointer {
+  cursor: pointer;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hover-underline:hover,
+.hover-underline:active {
+  text-decoration: underline;
 }
