@@ -1,5 +1,4 @@
 .nav {
-  background-color: $color_green;
   display: flex;
   display: wrap;
 
@@ -20,10 +19,5 @@
     padding: 15px 25px;
     transform: 0.3s ease all;
     font-size: 1.8rem;
-
-    &.active,
-    &:hover {
-      background-color: $color_light_green;
-    }
   }
 }

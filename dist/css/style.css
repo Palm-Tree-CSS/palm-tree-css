@@ -1,4 +1,3 @@
-/* Margin */
 .no-margin {
   margin: 0;
 }
@@ -27,7 +26,6 @@
   margin-bottom: 20px;
 }
 
-/* Text */
 .text-center {
   text-align: center;
 }
@@ -38,6 +36,35 @@
 
 .text-right {
   text-align: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hover-underline:hover,
+.hover-underline:active {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /* Reset */
@@ -54,10 +81,8 @@ html {
 }
 
 .btn {
-  background-color: #0fd9a4;
   border: none;
   cursor: pointer;
-  color: #eee;
   display: inline-block;
   margin-bottom: 20px;
   padding: 10px 15px;
@@ -65,9 +90,6 @@ html {
   text-align: center;
   line-height: 2.2rem;
   transition: 0.3s ease all;
-}
-.btn:active, .btn:hover {
-  background-color: #53dfba;
 }
 
 .card {
@@ -94,7 +116,6 @@ form:focus {
 }
 
 .nav {
-  background-color: #0fd9a4;
   display: flex;
   display: wrap;
 }
@@ -114,9 +135,6 @@ form:focus {
   padding: 15px 25px;
   transform: 0.3s ease all;
   font-size: 1.8rem;
-}
-.nav a.active, .nav a:hover {
-  background-color: #53dfba;
 }
 
 h1,
@@ -592,6 +610,76 @@ h2 {
   color: #594c25;
 }
 
+.hover-color-light:hover,
+.hover-color-light:hover {
+  color: #f2efeb;
+}
+
+.hover-color-dark:hover,
+.hover-color-dark:hover {
+  color: #261501;
+}
+
+.hover-color-green:hover,
+.hover-color-green:hover {
+  color: #0fd9a4;
+}
+
+.hover-color-light-green:hover,
+.hover-color-light-green:hover {
+  color: #53dfba;
+}
+
+.hover-color-dark-green:hover,
+.hover-color-dark-green:hover {
+  color: #21594a;
+}
+
+.hover-color-blue:hover,
+.hover-color-blue:hover {
+  color: #049dd9;
+}
+
+.hover-color-light-blue:hover,
+.hover-color-light-blue:hover {
+  color: #47b4df;
+}
+
+.hover-color-dark-blue:hover,
+.hover-color-dark-blue:hover {
+  color: #1d4859;
+}
+
+.hover-color-red:hover,
+.hover-color-red:hover {
+  color: #d9471a;
+}
+
+.hover-color-light-red:hover,
+.hover-color-light-red:hover {
+  color: #df7c5e;
+}
+
+.hover-color-dark-red:hover,
+.hover-color-dark-red:hover {
+  color: #593225;
+}
+
+.hover-color-yellow:hover,
+.hover-color-yellow:hover {
+  color: #d9a81a;
+}
+
+.hover-color-light-yellow:hover,
+.hover-color-light-yellow:hover {
+  color: #dfbf5e;
+}
+
+.hover-color-dark-yellow:hover,
+.hover-color-dark-yellow:hover {
+  color: #594c25;
+}
+
 .bg-light {
   background-color: #f2efeb;
 }
@@ -645,6 +733,76 @@ h2 {
 }
 
 .bg-dark-yellow {
+  background-color: #594c25;
+}
+
+.hover-bg-light:hover,
+.hover-bg-light:active {
+  background-color: #f2efeb;
+}
+
+.hover-bg-dark:hover,
+.hover-bg-dark:active {
+  background-color: #261501;
+}
+
+.hover-bg-green:hover,
+.hover-bg-green:active {
+  background-color: #0fd9a4;
+}
+
+.hover-bg-light-green:hover,
+.hover-bg-light-green:active {
+  background-color: #53dfba;
+}
+
+.hover-bg-dark-green:hover,
+.hover-bg-dark-green:active {
+  background-color: #21594a;
+}
+
+.hover-bg-blue:hover,
+.hover-bg-blue:active {
+  background-color: #049dd9;
+}
+
+.hover-bg-light-blue:hover,
+.hover-bg-light-blue:active {
+  background-color: #47b4df;
+}
+
+.hover-bg-dark-blue:hover,
+.hover-bg-dark-blue:active {
+  background-color: #1d4859;
+}
+
+.hover-bg-red:hover,
+.hover-bg-red:active {
+  background-color: #d9471a;
+}
+
+.hover-bg-light-red:hover,
+.hover-bg-light-red:active {
+  background-color: #df7c5e;
+}
+
+.hover-bg-dark-red:hover,
+.hover-bg-dark-red:active {
+  background-color: #593225;
+}
+
+.hover-bg-yellow:hover,
+.hover-bg-yellow:active {
+  background-color: #d9a81a;
+}
+
+.hover-bg-light-yellow:hover,
+.hover-bg-light-yellow:active {
+  background-color: #dfbf5e;
+}
+
+.hover-bg-dark-yellow:hover,
+.hover-bg-dark-yellow:active {
   background-color: #594c25;
 }
 
