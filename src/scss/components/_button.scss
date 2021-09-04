@@ -1,8 +1,6 @@
 .btn {
-  background-color: $color_green;
   border: none;
   cursor: pointer;
-  color: #eee;
   display: inline-block;
   margin-bottom: 20px;
   padding: 10px 15px;
@@ -10,9 +8,4 @@
   text-align: center;
   line-height: 2.2rem;
   transition: 0.3s ease all;
-  
-  &:active,
-  &:hover {
-    background-color: $color_light_green;
-  }
 }
