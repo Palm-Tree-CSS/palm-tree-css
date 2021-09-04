@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="./public/assets/img/branding/imagotype.svg" alt="Palm Tree CSS's imagotype" title="Palm Tree CSS's imagotype" width="200"/>
+	<img src="./assets/imagotype.svg" alt="Palm Tree CSS's imagotype" title="Palm Tree CSS's imagotype" width="200"/>
 </p>
 
 <p align="center">
@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-	<img src="https://img.shields.io/github/repo-size/adonyssantos/palm-tree-css?style=plastic" alt="GitHub Repo Size" title="GitHub Repo Size"> 
-	<img src="https://img.shields.io/github/languages/count/adonyssantos/palm-tree-css?style=plastic" alt="GitHub Language count" title="GitHub Language count"> 
-	<img src="https://img.shields.io/github/languages/top/adonyssantos/palm-tree-css?style=plastic" alt="GitHub Top Language" title="GitHub Top Language"> 
-	<img src="https://img.shields.io/github/last-commit/adonyssantos/palm-tree-css?color=red&amp;style=plastic" alt="GitHub Last Commit" title="GitHub Last Commit">
+	<img src="https://img.shields.io/github/repo-size/PuzzlerDev/palm-tree-css?style=plastic" alt="GitHub Repo Size" title="GitHub Repo Size"> 
+	<img src="https://img.shields.io/github/languages/count/PuzzlerDev/palm-tree-css?style=plastic" alt="GitHub Language count" title="GitHub Language count"> 
+	<img src="https://img.shields.io/github/languages/top/PuzzlerDev/palm-tree-css?style=plastic" alt="GitHub Top Language" title="GitHub Top Language"> 
+	<img src="https://img.shields.io/github/last-commit/PuzzlerDev/palm-tree-css?color=red&amp;style=plastic" alt="GitHub Last Commit" title="GitHub Last Commit">
 </p>
 
 ## Table of contents
@@ -29,7 +29,7 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 <!-- Palm Tree CSS -->
 <link
   rel="stylesheet"
-  href="https://adonyssantos.me/palm-tree-css/dist/css/style.min.css"
+  href="https://puzzlerdev.github.io/palm-tree-css-library/style.min.css"
   crossorigin="anonymous"
 />
 ```
@@ -40,7 +40,7 @@ The same but without minifying.
 <!-- Palm Tree CSS -->
 <link
   rel="stylesheet"
-  href="https://adonyssantos.me/palm-tree-css/dist/css/style.css"
+  href="https://puzzlerdev.github.io/palm-tree-css-library/style.css"
   crossorigin="anonymous"
 />
 ```
@@ -69,7 +69,7 @@ We recommend using the HTML5 structure, the initial code should be as follows.
     <!-- Palm Tree CSS -->
     <link
       rel="stylesheet"
-      href="https://adonyssantos.me/palm-tree-css/dist/css/style.min.css"
+      href="https://puzzlerdev.github.io/palm-tree-css-library/style.min.css"
       crossorigin="anonymous"
     />
 
@@ -94,7 +94,7 @@ Be kind to one another. We're striving to make [Conventional Commits](https://ww
 
 Conventional Commits use the [GitHub flow](https://guides.github.com/introduction/flow/) as main versioning workflow
 
-1. Fork the [Palm Tree](https://github.com/adonyssantos/palm-Tree-css) repository.
+1. Fork the [Palm Tree](https://github.com/PuzzlerDev/palm-tree-css-library) repository.
 2. Create a new branch for each feature, fix or improvement.
 3. Send a pull request from each feature branch to **dev** branch.
 
