@@ -1,8 +1,6 @@
 <p align="center">
-	<img src="./public/assets/img/logo.svg" alt="Palm Tree CSS's Logo" title="Palm Tree CSS's Logo" width="200"/>
+	<img src="./public/assets/img/branding/imagotype.svg" alt="Palm Tree CSS's imagotype" title="Palm Tree CSS's imagotype" width="200"/>
 </p>
-
-<h2 align="center">Palm Tree CSS</h2>
 
 <p align="center">
 	🌴 Minimalist. Modern. Simple. 🌴 An open source CSS library. 
@@ -17,6 +15,7 @@
 
 ## Table of contents
 
+- [Table of contents](#table-of-contents)
 - [Add Palm Tree to your project](#add-palm-tree-to-your-project)
 - [Keep in mind](#keep-in-mind)
 - [Starter template](#starter-template)
@@ -28,14 +27,22 @@ Copy-paste the stylesheet `<link>` into your `<head>` before all other styleshee
 
 ```html
 <!-- Palm Tree CSS -->
-<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/style.min.css" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://adonyssantos.me/palm-tree-css/dist/css/style.min.css"
+  crossorigin="anonymous"
+/>
 ```
 
 The same but without minifying.
 
 ```html
 <!-- Palm Tree CSS -->
-<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/style.css" crossorigin="anonymous">
+<link
+  rel="stylesheet"
+  href="https://adonyssantos.me/palm-tree-css/dist/css/style.css"
+  crossorigin="anonymous"
+/>
 ```
 
 ## Keep in mind
@@ -43,31 +50,35 @@ The same but without minifying.
 Palm Tree uses **viewport meta tag** so you need to add it to your `head`.
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
-## Starter template 
+## Starter template
 
 We recommend using the HTML5 structure, the initial code should be as follows.
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<!-- Palm Tree CSS -->
-	<link rel="stylesheet" href="https://adonyssantos.me/palm-tree-css/dist/css/style.min.css" crossorigin="anonymous">
+    <!-- Palm Tree CSS -->
+    <link
+      rel="stylesheet"
+      href="https://adonyssantos.me/palm-tree-css/dist/css/style.min.css"
+      crossorigin="anonymous"
+    />
 
-	<title>Palm Tree</title>
-</head>
-<body>
-	<h1>Hello, Palm Tree!</h1>
-	<!-- Your code -->
-</body>
+    <title>Palm Tree</title>
+  </head>
+  <body>
+    <h1>Hello, Palm Tree!</h1>
+    <!-- Your code -->
+  </body>
 </html>
 ```
 
