@@ -20,6 +20,11 @@
 - [Keep in mind](#keep-in-mind)
 - [Starter template](#starter-template)
 - [How to Contribute](#how-to-contribute)
+  - [Contributor Behavior](#contributor-behavior)
+  - [Pull Requests](#pull-requests)
+  - [Style Guide](#style-guide)
+  - [License](#license)
+- [Credits](#credits)
 
 ## Add Palm Tree to your project
 
@@ -38,11 +43,7 @@ The same but without minifying.
 
 ```html
 <!-- Palm Tree CSS -->
-<link
-  rel="stylesheet"
-  href="https://puzzlerdev.github.io/palm-tree-css-library/style.css"
-  crossorigin="anonymous"
-/>
+<link rel="stylesheet" href="https://puzzlerdev.github.io/palm-tree-css-library/style.css" crossorigin="anonymous" />
 ```
 
 ## Keep in mind
@@ -109,3 +110,7 @@ All pull requests SHOULD adhere to the [Conventional Commits specification](http
 ### License
 
 You must agree that your patch will be licensed under the Conventional Commit License, and when we change the license we will assume that you agreed with the change unless you object to the changes in time.
+
+## Credits
+
+This project is developed by [PuzzlerDev](https://github.com/puzzlerDev/).
