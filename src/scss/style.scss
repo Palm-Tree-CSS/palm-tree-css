@@ -1,30 +1,23 @@
 @charset 'utf-8';
 
-// Themes
-@import "./themes/default.scss";
-
-// Abstracts
-@import "./abstracts/variables";
-@import "./abstracts/helpers";
+// Utilities
+@use './utilities/' as *;
 
 // Base stuff
-@import "./base/fonts";
-@import "./base/reset";
+@use './base/' as *;
 
 // Components
-@import "./components/button";
-@import "./components/card";
-@import "./components/form";
-@import "./components/nav";
-@import "./components/typography";
+@use './components/' as *;
 
 // Layout
-@import "./layout/container";
-@import "./layout/layout";
+@use './layout/' as *;
 
-// Utilities
-@import "./utilities/color";
-@import "./utilities/bg-color";
+// Themes
+@use './themes/' as *;
+@use './themes/default' as *;
+
+// Abstracts
+@use './abstracts/' as *;
 
 /* General Styles */
 body {
