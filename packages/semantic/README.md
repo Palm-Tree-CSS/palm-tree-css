@@ -30,22 +30,6 @@ _Note: when using [Eyeglass](https://github.com/sass-eyeglass/eyeglass) for dist
 
 Reference: [Sass Guidelines](http://sass-guidelin.es/) > [Architecture](http://sass-guidelin.es/#architecture) > [Main file](http://sass-guidelin.es/#main-file)
 
-### Abstracts
+### Elements
 
-Base on the [Sass Guidelines documentation](https://sass-guidelin.es/#abstracts-folder) we should use an `abstracts/` folder gathers all Sass tools and helpers used across the project. Every global variable, function, mixin and placeholder should be put in here.
-
-In this  case we will split the `abstracts/` folder into `settings/` and `tools/` folders.
-
-The rule of thumb for this folder is that it should not output a single line of CSS when compiled on its own. These are nothing but Sass helpers.
-
-#### Settings
-
-The `settings/` folder should contain all Sass variables for the project. This includes colors, fonts, font-sizes, breakpoints, etc.
-
-#### Tools
-
-The `tools/` folder should contain all Sass tools, functions, mixins and placeholders for the project.
-
-### Base
-
-The `base/` base folder contains all the boilerplate code for the project. It includes the resets, typography, and base element styling (like `a {}` and `button {}`).
+The `elements/` is one of the main features of the architecture. It contains styles for base elements, such as links, paragraphs, headings, etc. It is a way to apply base styles to elements without using classes. Just needs to use semantic and accessible HTML.
