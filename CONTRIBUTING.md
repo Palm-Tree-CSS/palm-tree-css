@@ -93,40 +93,17 @@ A semantic commit consists of three main parts:
 
 ```bash
 feat(parser): add ability to parse arrays
-```
-```bash
 fix(validation): Fixed validation issue with user input
-```
-```bash
 chore(dependencies): Updated dependencies to latest versions
-```
-```bash
 docs(readme): Updated README.md with new instructions
-```
-```bash
 style(css): Adjusted indentation in stylesheet for consistency
-```
-```bash
 test(unit): Added unit tests for authentication module
-```
-```bash
 refactor(api): Restructured API endpoints for improved readability
-```
-```bash
 build: Updated build configuration for better performance
-```
-```bash
 ci: Updated continuous integration configuration for faster builds
-```
-```bash
 perf(database): Optimized database queries for faster response times
-```
-```bash
 revert: Reverted previous commit that introduced bug in authentication
-```
-```bash
 security(auth): Fixed security vulnerability in authentication process
-```
 
 This commit introduces a new feature to the parser, which is the ability to parse arrays.
 
