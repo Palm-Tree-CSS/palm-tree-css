@@ -104,6 +104,7 @@ ci: Updated continuous integration configuration for faster builds
 perf(database): Optimized database queries for faster response times
 revert: Reverted previous commit that introduced bug in authentication
 security(auth): Fixed security vulnerability in authentication process
+```
 
 This commit introduces a new feature to the parser, which is the ability to parse arrays.
 
