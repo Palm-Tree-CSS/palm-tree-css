@@ -1,9 +1,23 @@
 {
   "name": "palm-tree-css",
   "version": "1.0.0",
-  "description": "",
+  "description": "🌴 Minimalist. Modern. Simple. 🌴 An open source CSS library.",
+  "keywords": [],
+  "homepage": "https://puzzlerdev.github.io/palm-tree-css",
+  "bugs": {
+    "url": "https://github.com/PuzzlerDev/palm-tree-css/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuzzlerDev/palm-tree-css.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "workspaces": [
+    "packages/**",
+    "apps/**"
+  ],
   "scripts": {
-    "web:start": "npm start --workspace=@palm-tree-css/frontend",
     "core:build": "npm run build --workspace=@palm-tree-css/core",
     "core:dev": "npm run dev --workspace=@palm-tree-css/core",
     "core:publish": "npm run publish --workspace=@palm-tree-css/core",
@@ -12,10 +26,11 @@
     "semantic:publish": "npm run publish --workspace=@palm-tree-css/semantic",
     "utilities-class:build": "npm run build --workspace=@palm-tree-css/utilities-class",
     "utilities-class:dev": "npm run dev --workspace=@palm-tree-css/utilities-class",
-    "utilities-class:publish": "npm run publish --workspace=@palm-tree-css/utilities-class"
+    "utilities-class:publish": "npm run publish --workspace=@palm-tree-css/utilities-class",
+    "web:start": "npm start --workspace=@palm-tree-css/frontend"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "workspaces": ["packages/**", "apps/**"]
+  "devDependencies": {
+    "gh-pages": "6.1.1",
+    "sass": "1.72.0"
+  }
 }

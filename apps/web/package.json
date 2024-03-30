@@ -1,17 +1,6 @@
 {
   "name": "@palm-tree-css/frontend",
   "version": "1.0.0",
-  "description": "Frontend of Palm Tree",
-  "homepage": "https://github.com/PuzzlerDev/palm-tree-css-frontend",
-  "bugs": {
-    "url": "https://github.com/PuzzlerDev/palm-tree-css-frontend/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PuzzlerDev/palm-tree-css-frontend.git"
-  },
-  "license": "MIT",
-  "author": "Adonys Santos <adonyssantosjimenez@gmail.com>",
   "main": "index.js",
   "scripts": {
     "prebuild": "rm -rf .cache dist build",
@@ -21,8 +10,6 @@
     "start": "parcel src/views/*.html"
   },
   "devDependencies": {
-    "gh-pages": "6.1.1",
-    "parcel-bundler": "1.12.5",
-    "sass": "1.72.0"
+    "parcel-bundler": "1.12.5"
   }
 }
