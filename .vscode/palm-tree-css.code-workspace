@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "✨ palm-tree-css",
+			"path": "../"
+		},
+		{
+			"name": "🚀 @palm-tree-css/frontend",
+			"path": "../apps/web"
+		},
+		{
+			"name": "📦 @palm-tree-css/core",
+			"path": "../packages/core"
+		},
+		{
+			"name": "📦 @palm-tree-css/semantic",
+			"path": "../packages/semantic"
+		},
+		{
+			"name": "📦 @palm-tree-css/utilities-class",
+			"path": "../packages/utilities-class"
+		}
+	],
+	"settings": {}
+}

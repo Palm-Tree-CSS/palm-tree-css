@@ -1,31 +1,15 @@
 {
-  "homepage": "https://puzzlerdev.github.io/palm-tree-css",
   "name": "@palm-tree-css/semantic",
   "version": "1.0.0",
-  "description": "🌴 Minimalist. Modern. Simple. 🌴 An open source CSS library.",
   "main": "src/index.js",
   "scripts": {
     "prebuild": "rm -rf .cache dist build",
     "build": "npm run css-compile && npm run css-minify",
+    "css-compile": "sass --no-error-css src/:dist/",
+    "css-compile:dev": "sass --watch --source-map --embed-sources src/:dist/",
+    "css-minify": "sass --style=compressed --no-error-css src/main.scss dist/style.min.css",
     "dev": "npm run css-compile:dev",
     "prepublish": "npm run build",
-    "publish": "gh-pages -d dist",
-    "css-minify": "sass --style=compressed --no-error-css src/style.scss dist/style.min.css",
-    "css-compile": "sass --no-error-css src/:dist/",
-    "css-compile:dev": "sass --watch --source-map --embed-sources src/:dist/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PuzzlerDev/palm-tree-css.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PuzzlerDev/palm-tree-css/issues"
-  },
-  "devDependencies": {
-    "gh-pages": "6.1.1",
-    "sass": "1.72.0"
+    "publish": "gh-pages -d dist"
   }
 }
