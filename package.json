@@ -1,0 +1,21 @@
+{
+  "name": "palm-tree-css",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "web:start": "npm start --workspace=@palm-tree-css/frontend",
+    "core:build": "npm run build --workspace=@palm-tree-css/core",
+    "core:dev": "npm run dev --workspace=@palm-tree-css/core",
+    "core:publish": "npm run publish --workspace=@palm-tree-css/core",
+    "semantic:build": "npm run build --workspace=@palm-tree-css/semantic",
+    "semantic:dev": "npm run dev --workspace=@palm-tree-css/semantic",
+    "semantic:publish": "npm run publish --workspace=@palm-tree-css/semantic",
+    "utilities-class:build": "npm run build --workspace=@palm-tree-css/utilities-class",
+    "utilities-class:dev": "npm run dev --workspace=@palm-tree-css/utilities-class",
+    "utilities-class:publish": "npm run publish --workspace=@palm-tree-css/utilities-class"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": ["packages/**", "apps/**"]
+}
