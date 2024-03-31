@@ -1,15 +1,18 @@
 {
   "name": "@palm-tree-css/frontend",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "prebuild": "rm -rf .cache dist build",
-    "build": "parcel build src/views/*.html --public-url .",
-    "prepublish": "npm run build",
-    "publish": "gh-pages -d dist",
-    "start": "parcel src/views/*.html"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "publish": "gh-pages -d dist"
   },
-  "devDependencies": {
-    "parcel-bundler": "1.12.5"
+  "dependencies": {
+    "astro": "4.5.12",
+    "@astrojs/check": "0.5.10",
+    "typescript": "5.4.3"
   }
 }

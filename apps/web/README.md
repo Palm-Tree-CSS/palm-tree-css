@@ -18,10 +18,10 @@ Frontend of [Palm Tree CSS](https://github.com/PuzzlerDev/palm-tree-css-library)
 
 - [Building and running on localhost](#building-and-running-on-localhost)
 - [How to Contribute](#how-to-contribute)
-	- [Contributor Behavior](#contributor-behavior)
-	- [Pull Requests](#pull-requests)
-	- [Style Guide](#style-guide)
-	- [License](#license)
+  - [Contributor Behavior](#contributor-behavior)
+  - [Pull Requests](#pull-requests)
+  - [Style Guide](#style-guide)
+  - [License](#license)
 - [Credits](#credits)
 
 ## Building and running on localhost
