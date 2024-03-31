@@ -1,15 +1,6 @@
 body {
-    color: $color_dark;
-    background-color: $color_light;
-    font-family: $font;
-    font-size: 1.8rem;
-}
-
-p {
-    line-height: 27px;
-}
-
-img {
-    vertical-align: top;
-    width: 100%;
+  color: $color_dark;
+  background-color: $color_light;
+  font-family: $font;
+  font-size: px-to-rem(18px);
 }
