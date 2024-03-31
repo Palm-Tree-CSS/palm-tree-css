@@ -18,59 +18,59 @@ p {
 /* Small size (Phone) */
 .display-1 {
   font-weight: 700;
-  font-size: 6.4rem;
+  font-size: px-to-rem(64px);
 }
 
 .display-2 {
   font-weight: 700;
-  font-size: 5.4rem;
+  font-size: px-to-rem(54px);
 }
 
 .display-3 {
   font-weight: 700;
-  font-size: 4.4rem;
+  font-size: px-to-rem(44px);
 }
 
 .display-4 {
   font-weight: 700;
-  font-size: 3.4rem;
+  font-size: px-to-rem(34px);
 }
 
 .display-5 {
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: px-to-rem(24px);
 }
 
 .display-6 {
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: px-to-rem(14px);
 }
 
 /* Medium size (Tablet) */
 @media screen and (min-width: 992px) {
   h1,
   h2 {
-    font-size: 3rem;
+    font-size: px-to-rem(30px);
   }
 
   h3 {
-    font-size: 2.406rem;
+    font-size: px-to-rem(24px);
   }
 
   h4 {
-    font-size: 2.1rem;
+    font-size: px-to-rem(21px);
   }
 
   h5 {
-    font-size: 1.794rem;
+    font-size: px-to-rem(18px);
   }
 
   h6 {
-    font-size: 1.506;
+    font-size: px-to-rem(16px);
   }
 
   p {
-    font-size: 2.1rem;
+    font-size: px-to-rem(21px);
   }
 }
 
@@ -78,26 +78,26 @@ p {
 @media screen and (min-width: 576px) {
   h1,
   h2 {
-    font-size: 3.3rem;
+    font-size: px-to-rem(33px);
   }
 
   h3 {
-    font-size: 2.706rem;
+    font-size: px-to-rem(28px);
   }
 
   h4 {
-    font-size: 2.4rem;
+    font-size: px-to-rem(24px);
   }
 
   h5 {
-    font-size: 2.094rem;
+    font-size: px-to-rem(20px);
   }
 
   h6 {
-    font-size: 1.706;
+    font-size: px-to-rem(17px);
   }
 
   p {
-    font-size: 2.4rem;
+    font-size: px-to-rem(24px);
   }
 }
