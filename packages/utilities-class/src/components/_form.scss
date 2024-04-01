@@ -1,16 +1,16 @@
 form {
-  font-family: $font;
+  font-family: $font-family;
 
   & .input {
     padding: 10px 15px;
     border-radius: 3px;
-    border: 1px solid $color_light;
+    border: 1px solid $color-light;
     width: 100%;
     margin-bottom: 20px;
   }
 
   &:focus {
-    border: 1px solid $color_green;
+    border: 1px solid $color-green;
     outline: none;
   }
 }
