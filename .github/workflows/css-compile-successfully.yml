@@ -1,0 +1,14 @@
+name: css-compile-successfully
+run-name: ${{ github.actor }} is compiling the css
+on: [push]
+jobs:
+  check-compile-css:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+            node-version: '20'
+      - run: npm install -g sass
+      - run: npm install --workspace=packages
+      - run: npm run build --workspace=packages
