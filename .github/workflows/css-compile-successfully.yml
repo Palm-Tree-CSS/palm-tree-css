@@ -1,37 +1,30 @@
-name: css-compile-successfully
-
-run-name: '${{ github.actor }} is compiling the CSS! 💅🏼'
-
+name: 'css-compile-successfully'
 on:
   pull_request:
     branches: ['main', 'release/**']
     types: [opened, synchronize]
     paths: ['packages/**']
-
 jobs:
   check-compile-css:
-    runs-on: ubuntu-22.04
-
+    runs-on: ubuntu-20.04
     steps:
       - name: 'Checkout 🔍'
         uses: actions/checkout@v4
-
       - name: 'Cache dependencies 📦'
         id: cache-node_modules
         uses: actions/cache@v4
         with:
-          paths: 'node_modules'
+          path: 'node_modules'
           key: ${{ runner.os }}-node_module-${{ hashFiles('package*.json') }}-${{ hashFiles('.github/workflows/css-compile-successfully.yml') }}
-
       - name: 'Setup node ⚙️'
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
           cache: npm
-            
       - name: 'Install dependencies ⮋'
         if: steps.cache-node_modules.outputs.cache-hit != 'true'
-        run: npm ci --workspace=packages
-
-      - name: 'Build SASS 🫶🏼'
+        run: |
+          npm install -g sass
+          npm install --workspace=packages
+      - name: 'Build Sass 🫶🏼'
         run: npm run build --workspace=packages
