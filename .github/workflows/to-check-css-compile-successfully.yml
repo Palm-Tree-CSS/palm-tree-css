@@ -18,7 +18,7 @@ jobs:
         id: cache-node_modules
         with:
           path: 'node_modules'
-          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('.github/workflows/css-compile-successfully.yml') }}
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('.github/workflows/to-check-css-compile-successfully.yml') }}
 
       - name: Setup node ⚙️
         uses: actions/setup-node@v4
