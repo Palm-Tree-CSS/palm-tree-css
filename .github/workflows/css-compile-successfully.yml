@@ -1,25 +1,37 @@
 name: css-compile-successfully
+
+run-name: ${{ github.actor }} is compiling the CSS! 💅🏼
+
 on:
   pull_request:
-    branches: ["main", "release/**"]
+    branches: ['main', 'release/**']
     types: [opened, synchronize]
-    paths: ["packages/**"]
+    paths: ['packages/**']
+
 jobs:
   check-compile-css:
     runs-on: ubuntu-22.04
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/cache@v4
+      - name: 'Checkout 🔍'
+        uses: actions/checkout@v4
+
+      - name: 'Cache dependencies 📦'
+        id: cache-node_modules
+        uses: actions/cache@v4
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}-
-      - uses: actions/setup-node@v4
+          paths: 'node_modules'
+          key: ${{ runner.os }}-node_module-${{ hashFiles('packages*.json') }}-${{ hashFiles('.github/workflows/css-compile-successfully.yml') }}
+
+      - name: 'Setup node ⚙️'
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
+            
+      - name: 'Install dependencies ⮋'
+        if: steps.cache-node_modules.outputs.cache-hit != 'true'
+        run: 'npm install -g sass && npm install --workspace=packages'
 
-      - run: npm install -g sass
-      - run: npm install --workspace=packages
-      - run: npm run build --workspace=packages
+      - name: 'Build SASS 🫶🏼'
+        run: npm run build --workspace=packages
