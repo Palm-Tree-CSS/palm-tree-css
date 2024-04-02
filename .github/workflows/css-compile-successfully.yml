@@ -1,6 +1,6 @@
 name: css-compile-successfully
 
-run-name: ${{ github.actor }} is compiling the CSS! 💅🏼
+run-name: '${{ github.actor }} is compiling the CSS! 💅🏼'
 
 on:
   pull_request:
@@ -27,11 +27,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+          cache: npm
             
       - name: 'Install dependencies ⮋'
         if: steps.cache-node_modules.outputs.cache-hit != 'true'
-        run: npm install -g sass && npm install --workspace=packages
+        run: npm ci --workspace=packages
 
       - name: 'Build SASS 🫶🏼'
         run: npm run build --workspace=packages
