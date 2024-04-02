@@ -26,9 +26,11 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Install dependencies ⮋
+      - name: Install dependencies ⬇️
         if: steps.cache-node_modules.outputs.cache-hit != 'true'
-        run: npm install -g sass && npm install --workspace=packages
+        run: |
+          npm install -g sass
+          npm install --workspace=packages
 
       - name: Build Sass 🫶🏼
         run: npm run build --workspace=packages
