@@ -6,9 +6,17 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}-
       - uses: actions/setup-node@v4
         with:
-            node-version: '20'
+          node-version: '20'
+          cache: 'npm'
+
       - run: npm install -g sass
       - run: npm install --workspace=packages
       - run: npm run build --workspace=packages
