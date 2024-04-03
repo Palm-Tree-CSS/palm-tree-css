@@ -5,7 +5,7 @@ on:
     types: [opened, synchronize]
     paths: ['packages/**']
 jobs:
-  to-check-css-compile-successfully:
+  build:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout 🔍
