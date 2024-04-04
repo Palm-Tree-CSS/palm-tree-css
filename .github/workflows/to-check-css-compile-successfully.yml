@@ -1,11 +1,13 @@
 name: to-check-css-compile-successfully
+
 on:
   pull_request:
     branches: ['main', 'release/**']
     types: [opened, synchronize]
     paths: ['packages/**']
+
 jobs:
-  build:
+  avoid_redundancy:
     runs-on: ubuntu-20.04
     steps:
       - name: Cancel previous runs ❌
@@ -13,17 +15,13 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
+  install_dependencies:
+    runs-on: ubuntu-20.04
+    steps:
       - name: Checkout 🔍
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
-      - name: Cache dependencies 📦
-        uses: actions/cache@v4
-        id: cache-node_modules
-        with:
-          path: 'node_modules'
-          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('.github/workflows/to-check-css-compile-successfully.yml') }}
 
       - name: Setup node ⚙️
         uses: actions/setup-node@v4
@@ -31,11 +29,38 @@ jobs:
           node-version: 20
           cache: npm
 
+      - name: Cache dependencies 📦
+        uses: actions/cache@v4
+        id: cache-node_modules
+        with:
+          path: 'node_modules'
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/package-lock.json') }}-${{ hashFiles('.github/workflows/to-check-css-compile-successfully.yml') }}
+      
       - name: Install dependencies ⬇️
         if: steps.cache-node_modules.outputs.cache-hit != 'true'
         run: |
           npm install -g sass
           npm install --workspace=packages
 
+  build:
+    needs: [install_dependencies]
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout 🔍
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup node ⚙️
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - name: Build Sass 🫶🏼
         run: npm run build --workspace=packages
+      
+      - name: Upload artifact 🆙
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
