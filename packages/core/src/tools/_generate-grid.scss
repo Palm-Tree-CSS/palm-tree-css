@@ -1,0 +1,15 @@
+@mixin generate-grid($size) {
+  @for $i from 1 through 12 {
+    .#{$size}-col-#{$i} {
+      @include respond-to($size) {
+        grid-template-columns: repeat(#{$i}, 1fr);
+      }
+    }
+
+    .#{$size}-span-#{$i} {
+      @include respond-to($size) {
+        grid-column: span #{$i};
+      }
+    }
+  }
+}
