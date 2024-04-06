@@ -56,6 +56,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install Sass ⬇️
+        run: npm i -g sass
+
       - name: Build Sass 🫶🏼
         run: npm run build --workspace=packages
       

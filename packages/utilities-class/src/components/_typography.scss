@@ -15,7 +15,6 @@ p {
   margin-bottom: 10px;
 }
 
-/* Small size (Phone) */
 .display-1 {
   font-weight: 700;
   font-size: px-to-rem(64px);
@@ -46,58 +45,63 @@ p {
   font-size: px-to-rem(14px);
 }
 
-/* Medium size (Tablet) */
-@media screen and (min-width: 992px) {
-  h1,
-  h2 {
+h1,
+h2 {
+  @include respond-to(md) {
     font-size: px-to-rem(30px);
   }
 
-  h3 {
-    font-size: px-to-rem(24px);
-  }
-
-  h4 {
-    font-size: px-to-rem(21px);
-  }
-
-  h5 {
-    font-size: px-to-rem(18px);
-  }
-
-  h6 {
-    font-size: px-to-rem(16px);
-  }
-
-  p {
-    font-size: px-to-rem(21px);
+  @include respond-to(xs) {
+    font-size: px-to-rem(33px);
   }
 }
 
-/* Large size (Desktop and TV) */
-@media screen and (min-width: 576px) {
-  h1,
-  h2 {
-    font-size: px-to-rem(33px);
-  }
-
-  h3 {
-    font-size: px-to-rem(28px);
-  }
-
-  h4 {
+h3 {
+  @include respond-to(md) {
     font-size: px-to-rem(24px);
   }
 
-  h5 {
+  @include respond-to(xs) {
+    font-size: px-to-rem(28px);
+  }
+}
+
+h4 {
+  @include respond-to(md) {
+    font-size: px-to-rem(21px);
+  }
+
+  @include respond-to(xs) {
+    font-size: px-to-rem(24px);
+  }
+}
+
+h5 {
+  @include respond-to(md) {
+    font-size: px-to-rem(18px);
+  }
+
+  @include respond-to(xs) {
     font-size: px-to-rem(20px);
   }
+}
 
-  h6 {
-    font-size: px-to-rem(17px);
+h6 {
+  @include respond-to(md) {
+    font-size: px-to-rem(16px);
   }
 
-  p {
+  @include respond-to(xs) {
+    font-size: px-to-rem(17px);
+  }
+}
+
+p {
+  @include respond-to(md) {
+    font-size: px-to-rem(21px);
+  }
+
+  @include respond-to(xs) {
     font-size: px-to-rem(24px);
   }
 }
