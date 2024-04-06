@@ -1,0 +1,14 @@
+@mixin respond-to($breakpoint) {
+  $found: false;
+  @each $key, $value in $breakpoints {
+    @if $breakpoint == $key {
+      @media (min-width: $value) {
+        @content;
+      }
+      $found: true;
+    }
+  }
+  @if $found == false {
+    @error "Breakpoint '#{$breakpoint}' not found in the list of breakpoints.";
+  }
+}
