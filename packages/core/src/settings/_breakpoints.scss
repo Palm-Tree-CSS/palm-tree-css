@@ -1,2 +1,6 @@
-// TODO: create a breakpoint mixin (focus on mobile first)
-// We will do this using the breakpoints list on `packages/core/src/tools/_breakpoint.scss`
+$breakpoints: (
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  lg: 1200px,
+);
