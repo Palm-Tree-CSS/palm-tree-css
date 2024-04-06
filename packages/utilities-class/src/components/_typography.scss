@@ -10,20 +10,44 @@ h6 {
   margin-bottom: 20px;
 }
 
+h1 {
+  font-size: px-to-rem(32px);
+}
+
+h2 {
+  font-size: px-to-rem(28px);
+}
+
+h3 {
+  font-size: px-to-rem(24px);
+}
+
+h4 {
+  font-size: px-to-rem(21px);
+}
+
+h5 {
+  font-size: px-to-rem(18px);
+}
+
+h6 {
+  font-size: px-to-rem(16px);
+}
+
 p {
+  font-size: px-to-rem(21px);
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-/* Small size (Phone) */
 .display-1 {
   font-weight: 700;
-  font-size: px-to-rem(64px);
+  font-size: clamp(px-to-rem(32px), 3rem + 0.87vw, px-to-rem(64px));
 }
 
 .display-2 {
   font-weight: 700;
-  font-size: px-to-rem(54px);
+  font-size: clamp(px-to-rem(30px), 2.75rem + 0.87vw, px-to-rem(54px));
 }
 
 .display-3 {
@@ -44,60 +68,4 @@ p {
 .display-6 {
   font-weight: 700;
   font-size: px-to-rem(14px);
-}
-
-/* Medium size (Tablet) */
-@media screen and (min-width: 992px) {
-  h1,
-  h2 {
-    font-size: px-to-rem(30px);
-  }
-
-  h3 {
-    font-size: px-to-rem(24px);
-  }
-
-  h4 {
-    font-size: px-to-rem(21px);
-  }
-
-  h5 {
-    font-size: px-to-rem(18px);
-  }
-
-  h6 {
-    font-size: px-to-rem(16px);
-  }
-
-  p {
-    font-size: px-to-rem(21px);
-  }
-}
-
-/* Large size (Desktop and TV) */
-@media screen and (min-width: 576px) {
-  h1,
-  h2 {
-    font-size: px-to-rem(33px);
-  }
-
-  h3 {
-    font-size: px-to-rem(28px);
-  }
-
-  h4 {
-    font-size: px-to-rem(24px);
-  }
-
-  h5 {
-    font-size: px-to-rem(20px);
-  }
-
-  h6 {
-    font-size: px-to-rem(17px);
-  }
-
-  p {
-    font-size: px-to-rem(24px);
-  }
 }
