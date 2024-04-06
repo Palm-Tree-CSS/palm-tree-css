@@ -15,7 +15,7 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
-  install_dependencies:
+  build:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout 🔍
@@ -41,27 +41,10 @@ jobs:
         run: |
           npm install -g sass
           npm install --workspace=packages
-
-  build:
-    needs: [install_dependencies]
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Checkout 🔍
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      
-      - name: Setup node ⚙️
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install Sass ⬇️
-        run: npm i -g sass
-
+        
       - name: Build Sass 🫶🏼
         run: npm run build --workspace=packages
-      
+        
       - name: Upload artifact 🆙
         uses: actions/upload-artifact@v4
         with:
