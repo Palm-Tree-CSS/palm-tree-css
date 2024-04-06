@@ -1,4 +1,12 @@
 html  {
+/**
+https://bit.ly/fluid-design
+14 = smallest font size
+20.56 = largest font size
+100dvw = total screen
+320 = smallest screen currently where it will stop flowing
+2560 = 2k screen where it will no longer flow
+*/
   font-size: calc(14px + (20.56 - 14) * ((100dvw - 320px) / (2560 - 320)));
 }
 
