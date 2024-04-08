@@ -1,2 +1,8 @@
 $container-width: 70vw;
-$font-base: 16px;
+$font-base: 14px;
+
+// Fluid font size
+$min-font-size: $font-base;
+$max-font-size: 20.56px;
+$min-screen-size: 320px;
+$max-screen-size: 2560px;
