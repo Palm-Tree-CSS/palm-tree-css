@@ -8,19 +8,45 @@
 *::after {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
+  vertical-align: baseline;
 }
 
-img,
-video,
-svg {
+*::before,
+*::after {
   display: block;
-  height: auto;
-  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   min-height: 100dvh;
+  font-size: 100%;
+  // font-family: $font-base; //TODO: add $font-base variable
+  // color: $color-text; //TODO: add $color-text variable
+  hyphens: auto;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+iframe,
+figure,
+svg {
+  display: block;
+  // height: auto; //TODO: check if this rule is necessary - meanwhile it remains commented
+  max-width: 100%;
+  width: 100%;
+}
+
+svg {
+  fill: currentColor;
 }
 
 ul[role='list'],
@@ -33,10 +59,85 @@ h2,
 h3,
 h4,
 h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-  text-wrap: balance;
+  text-wrap: balance; //TODO: extract this rule to a generic or element styles file
+}
+
+a {
+  display: block;
 }
 
 p {
-  text-wrap: pretty;
+  text-wrap: pretty; //TODO: extract this rule to a generic or element styles file
+
+  a {
+    display: inline;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block;
+  appearance: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  html {
+    scroll-behavior: initial !important;
+  }
 }
