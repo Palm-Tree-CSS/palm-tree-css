@@ -1,0 +1,6 @@
+// TODO: is needed to use px-to-rem in this mixin???
+@mixin fluid-font-size($min-size, $max-size, $min-screen, $max-screen) {
+  font-size: calc(
+    #{$min-size} + (#{$max-size} - #{$min-size}) * ((100vw - #{$min-screen}) / (#{$max-screen} - #{$min-screen}))
+  );
+}
