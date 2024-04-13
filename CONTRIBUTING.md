@@ -77,6 +77,7 @@ Semantic commits are a way of writing commit messages that follow a standardized
 A semantic commit consists of three main parts:
 
 1. **Commit type**: Indicates the type of change made. Common commit types include:
+
    - :sparkles: feat: Introduces a new feature.
    - :bug: fix: Fixes a bug.
    - :wrench: chore: Project maintenance tasks, such as dependency updates.
@@ -89,7 +90,7 @@ A semantic commit consists of three main parts:
 
 3. **Description**: A brief description of the change made. It should be clear, concise, and understandable to anyone reading the project history.
 
-## Example of a semantic commit 💡
+## Examples of semantic commits 💡
 
 ```bash
 feat(parser): add ability to parse arrays
@@ -108,7 +109,6 @@ security(auth): Fixed security vulnerability in authentication process
 
 This commit introduces a new feature to the parser, which is the ability to parse arrays.
 
-
 ## Tools for semantic commits 🛠️
 
 There are several tools that can assist you in writing semantic commits, such as:
@@ -120,9 +120,9 @@ There are several tools that can assist you in writing semantic commits, such as
 ## Additional resources ℹ️
 
 - [Complete guide to semantic commits](https://www.conventionalcommits.org/es/v1.0.0-beta.2/)
-- [How to write commit messages](*URL removed as it is invalid*)
-- [Best practices for writing commits in Git](*URL removed as it is invalid*)
+- [How to write commit messages](_URL removed as it is invalid_)
+- [Best practices for writing commits in Git](_URL removed as it is invalid_)
 
 ## Conclusion 🎉
 
-Semantic commits are a simple and effective way to improve the readability and understanding of your project's history. I recommend starting to use them in your projects to take advantage of all their benefits.
+Semantic commits are a simple and effective way to improve the readability and understanding of your project's history. We encourage you to start using them in your projects to take advantage of all their benefits.
