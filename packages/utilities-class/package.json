@@ -1,7 +1,7 @@
 {
   "name": "@palm-tree-css/utilities-class",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/main.scss",
   "scripts": {
     "prebuild": "rm -rf .cache dist build",
     "build": "npm run css-compile && npm run css-minify",
@@ -11,5 +11,8 @@
     "dev": "npm run css-compile:dev",
     "prepublish": "npm run build",
     "publish": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@palm-tree-css/core": "*"
   }
 }

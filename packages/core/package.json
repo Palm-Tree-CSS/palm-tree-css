@@ -1,7 +1,7 @@
 {
   "name": "@palm-tree-css/core",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/main.scss",
   "scripts": {
     "prebuild": "rm -rf .cache dist build",
     "build": "npm run css-compile && npm run css-minify",
