@@ -131,6 +131,11 @@ td {
   border-spacing: 0;
 }
 
+dialog:modal {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
