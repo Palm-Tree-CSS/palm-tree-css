@@ -91,7 +91,7 @@ If you are reviewing a pull request, please follow these guidelines to ensure a 
 
 **Note:** The `$` symbol is used to indicate a variable, and the `%` symbol is used to indicate a placeholder. This is a convention used in Sass and we should follow it.
 
-##### File Naming
+#### File Naming
 
 - Use lowercase letters.
 - Use hyphens to separate words.
