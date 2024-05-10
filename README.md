@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-	🌴 Minimalist. Modern. Simple. 🌴 An classless and agnostic CSS library. 
+	🌴 Minimalist. Modern. Simple. 🌴 A classless and agnostic CSS library. 
 </p>
 
 <p align="center">
