@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/github/v/tag/PuzzlerDev/palm-tree-css?color=blue&label=version&style=plastic" alt="GitHub tag (latest SemVer)">
 	<img src="https://img.shields.io/github/repo-size/PuzzlerDev/palm-tree-css?style=plastic" alt="GitHub Repo Size" title="GitHub Repo Size"> 
 	<img src="https://img.shields.io/github/languages/count/PuzzlerDev/palm-tree-css?style=plastic" alt="GitHub Language count" title="GitHub Language count"> 
 	<img src="https://img.shields.io/github/languages/top/PuzzlerDev/palm-tree-css?style=plastic" alt="GitHub Top Language" title="GitHub Top Language"> 
@@ -113,4 +114,8 @@ You must agree that your patch will be licensed under the Conventional Commit Li
 
 ## Credits
 
-This project is developed by [PuzzlerDev](https://github.com/puzzlerDev/).
+This project was initially started by [PuzzlerDev](https://github.com/puzzlerDev/) because we decided not to continue with this organization. Then it was moved to the Palm Tree CSS organization to be maintained by the community, specially by the [Gentleman Programming](https://github.com/Gentleman-Programming/) community.
+
+**Thanks to all the contributors!!**
+
+[![Contributors](https://contrib.rocks/image?repo=Palm-Tree-CSS/palm-tree-css)](https://github.com/Palm-Tree-CSS/palm-tree-css/graphs/contributors)
